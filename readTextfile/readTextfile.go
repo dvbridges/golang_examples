@@ -28,4 +28,6 @@ func main() {
 		}
 	}
 
+	fileText.Close() // close file object
+
 }
