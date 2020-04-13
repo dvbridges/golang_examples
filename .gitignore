@@ -1,0 +1,4 @@
+# Ignore pkg folder
+pkg 
+# Ignore bin folder
+bin
