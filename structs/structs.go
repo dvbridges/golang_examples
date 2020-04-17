@@ -35,6 +35,10 @@ func main() {
 
 	// Get struct pointer
 	p := &jim
+	// We can write the following to dereference the pointer 
+	// i.e., gain access to the value pointer points to 
+	fmt.Println((*p).Salary)
+	// But that is cumbersome, so Go lets you
 	fmt.Println(p.Salary)
 
 	// Give employee a paycut using pointer 
