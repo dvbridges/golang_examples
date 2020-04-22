@@ -19,8 +19,9 @@ func main() {
 			engine = sounds.EngineOne{Name: "Engine one"}
         } else {
 			engine = sounds.EngineTwo{Name: "Engine two"}
+			// Close is a valid method, but not declared in the interface, so fails
+			// engine.Close()
 		}
 		engine.Play()
 	}		
-
 }

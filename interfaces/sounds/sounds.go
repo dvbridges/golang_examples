@@ -18,13 +18,13 @@ type EngineTwo struct {
 
 // EngineOne play method
 func (e EngineOne) Play() {
-	fmt.Printf("Audio Player: %s\n", e.Name)
+	fmt.Printf("Audio Player: %s playing\n", e.Name)
 }
 
 // EngineTwo play method
 func (e EngineTwo) Play() {
 	newName := strings.ToUpper(e.Name)
-	fmt.Printf("Audio Player: %s\n", newName)
+	fmt.Printf("Audio Player: %s playing\n", newName)
 }
 
 // EngineTwo also has a close method
