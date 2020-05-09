@@ -1,4 +1,15 @@
+# Ignore all, so to include files with no extension
+*
+# Unignore all with extensions
+!*.*
+# Unignore all dirs
+!*/
+
 # Ignore pkg folder
 pkg 
 # Ignore bin folder
 bin
+#ignore pcap files
+*.pcap
+# Ignore go files 
+*.sum
